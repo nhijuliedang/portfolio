@@ -646,6 +646,55 @@ section {
 }
 
 /*--------------------------------------------------------------
+
+# Research
+--------------------------------------------------------------*/
+.research .icon-box {
+  margin-bottom: 20px;
+}
+.research .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+.research .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.research .icon-box:hover .icon {
+  background: #fff;
+}
+.research .icon-box:hover .icon i {
+  color: #149ddd;
+}
+.research .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.research .title a {
+  color: #343a40;
+}
+.research .title a:hover {
+  color: #149ddd;
+}
+.research .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
